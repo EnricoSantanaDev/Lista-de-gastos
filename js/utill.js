@@ -1,5 +1,5 @@
 const obterElemento = (id) => document.getElementById(id)
-const formataMoeda = (valor) => valor.tofixed(2).replace('.', ',')
+const formataMoeda = (valor) => valor.toFixed(2).replace('.', ',')
 
 export const valorNegativo = (valor) => valor < 0
 export const atualizarInterface = (gastosPorCategoria) => {
